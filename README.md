@@ -6,7 +6,11 @@ This package is being built more as an experiment into what is possible with ges
 
 The intention is that it will replace the need for mouse input for Atom thereby reducing the distance needed to travel from the keyboard.
 
-![Leap Motion](./leap.jpg)
+![Leap Motion](https://raw.githubusercontent.com/dan-c-underwood/atom-leap/master/leap.jpg)
+
+## Installation
+
+Installation can be performed within the Atom editor or via the command `apm install atom-leap`.
 
 ## Dependencies
 
