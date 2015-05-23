@@ -1,0 +1,30 @@
+{
+  "name": "atom-leap",
+  "main": "./lib/atom-leap",
+  "version": "0.0.0",
+  "description": "(Experimental) Leap Motion support for Atom.",
+  "keywords": [
+      "leap motion",
+      "ui",
+      "controls"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-leap:toggle"
+  },
+  "repository": "https://github.com/dan-c-underwood/atom-leap",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+      "leapjs": "^0.6.4",
+      "atom-space-pen-views": "^2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
+}
